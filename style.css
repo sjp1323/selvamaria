@@ -1,0 +1,71 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  color: #333;
+  text-align: center;
+}
+
+/* Header */
+.header {
+  background: #fff;
+  padding: 20px;
+}
+.logo {
+  width: 180px;
+  max-width: 80%;
+}
+.descripcion {
+  max-width: 600px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* Menú */
+.menu {
+  background: #fffcf2;
+  padding: 30px;
+}
+.menu h2 {
+  color: #d35400;
+  margin-bottom: 20px;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: auto;
+}
+.menu li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+}
+.footer a {
+  color: #f39c12;
+  text-decoration: none;
+}
+.copy {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .menu li {
+    flex-direction: column;
+    text-align: center;
+  }
+}
