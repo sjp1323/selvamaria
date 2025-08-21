@@ -1,0 +1,77 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Restaurante Selvamaría — Menú</title>
+  <meta name="description" content="Carta digital del Restaurante Selvamaría. Platos de la casa, cortes de res, pescados, pollo, cerdo, entradas y bebidas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <div class="brand">Selvamaría</div>
+      <div class="menu">
+        <a href="#menu">Menú</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <span class="badge">Cocina tradicional • Parrilla</span>
+        <h1>Bienvenido a Selvamaría</h1>
+        <p>Explora nuestra carta actualizada. Puedes filtrar por categoría, buscar un plato y cambiar el formato de precios.</p>
+        <div class="toolbar">
+          <input id="search" class="input" type="search" placeholder="Buscar plato… (ej. trucha, ajiaco)">
+          <select id="view" class="select" title="Formato de precios">
+            <option value="k">$35k</option>
+            <option value="cop">$ 35.000 COP</option>
+          </select>
+        </div>
+        <div id="tagbar" class="tagbar"></div>
+        <p class="small">Última actualización: <span id="updated"></span></p>
+      </div>
+    </section>
+
+    <section id="menu" class="grid">
+      <div id="categories" class="grid"></div>
+    </section>
+
+    <section id="galeria" class="category">
+      <h2 class="brand">Galería</h2>
+      <div id="gallery" class="gallery"></div>
+    </section>
+
+    <section id="contacto" class="category card">
+      <h2>Contacto</h2>
+      <p>¿Reservas o domicilios? Escríbenos por WhatsApp o visítanos.</p>
+      <ul>
+        <li>WhatsApp: <a href="https://wa.me/573102555156" target="_blank" rel="noopener">+57 310 255 5156</a></li>
+        <li>Instagram: <a href="https://instagram.com/sabanacorp_ltda" target="_blank" rel="noopener">@sabanacorp_ltda</a></li>
+        <li>TikTok: <a href="https://tiktok.com/@sabana.corp.ltda" target="_blank" rel="noopener">@sabana.corp.ltda</a></li>
+      </ul>
+      <p class="small">* Puedes cambiar los datos de contacto en <code>index.html</code>.</p>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div>© <span id="year"></span> Restaurante Selvamaría · Chía, Cundinamarca</div>
+        <div class="small">Sitio estático generado con HTML, CSS y JavaScript. El menú se carga desde <code>data/menu.json</code> para facilitar actualizaciones.</div>
+      </div>
+    </footer>
+  </main>
+
+  <a class="whatsapp" href="https://wa.me/573102555156" target="_blank" rel="noopener">WhatsApp</a>
+
+  <script src="app.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

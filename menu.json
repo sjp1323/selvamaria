@@ -1,0 +1,168 @@
+{
+  "restaurant": "Restaurante Selvamaría",
+  "lastUpdated": "2025-08-21",
+  "currency": "COP",
+  "displayStyle": "k",
+  "categories": [
+    {
+      "id": "platos-casa",
+      "title": "Platos de la Casa",
+      "items": [
+        {
+          "name": "Conejo a la parrilla o al ajillo",
+          "price_k": 35
+        },
+        {
+          "name": "Cazuela de mariscos",
+          "price_k": 40
+        },
+        {
+          "name": "Ajiaco grande",
+          "price_k": 22,
+          "note": "Solo los domingos"
+        },
+        {
+          "name": "Ajiaco pequeño",
+          "price_k": 18,
+          "note": "Solo los domingos"
+        }
+      ]
+    },
+    {
+      "id": "cortes-res",
+      "title": "Cortes especiales de res",
+      "items": [
+        {
+          "name": "Churrasco a la plancha (400 gr)",
+          "price_k": 35
+        },
+        {
+          "name": "Churrasco gratinado (400 gr)",
+          "price_k": 40
+        },
+        {
+          "name": "Punta de anca (380 gr)",
+          "price_k": 42
+        },
+        {
+          "name": "New York (380 gr)",
+          "price_k": 42
+        },
+        {
+          "name": "Tomahawk (380 gr)",
+          "price_k": 45
+        },
+        {
+          "name": "Ribeye (380 gr)",
+          "price_k": 40
+        }
+      ]
+    },
+    {
+      "id": "pescado",
+      "title": "Pescado",
+      "items": [
+        {
+          "name": "Trucha a la plancha o al ajillo",
+          "price_k": 35
+        },
+        {
+          "name": "Trucha gratinada o en champiñones",
+          "price_k": 40
+        },
+        {
+          "name": "Trucha en camarones",
+          "price_k": 45
+        },
+        {
+          "name": "Robalo (filete)",
+          "price_k": 35
+        },
+        {
+          "name": "Salmón a la plancha",
+          "price_k": 45
+        },
+        {
+          "name": "Mojarra frita",
+          "price_k": 35
+        }
+      ]
+    },
+    {
+      "id": "pollo",
+      "title": "Pollo",
+      "items": [
+        {
+          "name": "Pechuga a la plancha",
+          "price_k": 30
+        },
+        {
+          "name": "Pechuga gratinada",
+          "price_k": 35
+        },
+        {
+          "name": "Pechuga en champiñones",
+          "price_k": 38
+        },
+        {
+          "name": "Pechuga en camarones",
+          "price_k": 40
+        }
+      ]
+    },
+    {
+      "id": "cerdo",
+      "title": "Cerdo",
+      "items": [
+        {
+          "name": "Lomo de cerdo",
+          "price_k": 35
+        },
+        {
+          "name": "Chuleta en salsa de mora",
+          "price_k": 35
+        }
+      ]
+    },
+    {
+      "id": "entradas",
+      "title": "Entradas",
+      "items": [
+        {
+          "name": "Patacón en champiñón",
+          "price_k": 20
+        },
+        {
+          "name": "Patacón con hogao",
+          "price_k": 18
+        }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "title": "Bebidas",
+      "items": [
+        {
+          "name": "Jugo natural (agua)",
+          "price_k": 3
+        },
+        {
+          "name": "Jugo natural (leche)",
+          "price_k": 5
+        },
+        {
+          "name": "Gaseosa",
+          "price_k": 3
+        },
+        {
+          "name": "Cerveza",
+          "price_k": 5
+        },
+        {
+          "name": "Limonada",
+          "price_k": 4
+        }
+      ]
+    }
+  ]
+}
