@@ -1,94 +1,152 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Restaurante Selva María</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Restaurante SelvaMaría</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Títulos con estilo similar al logo -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <!-- Encabezado -->
-  <header class="header">
-    <img src="images/logo.png" alt="Restaurante Selva María" class="logo">
-    <h1>Restaurante Selva María</h1>
-    <p class="descripcion">
-      Un lugar único en medio de la naturaleza, donde disfrutarás de la mejor gastronomía típica y sabores de la selva. 
-      Vive una experiencia inolvidable rodeado de tradición y frescura.
-    </p>
+  <header class="topbar">
+    <div class="container">
+      <div class="brand">
+        <img src="images/logo.png" alt="Logo SelvaMaría" class="logo" width="5000" height="3000"/>
+        
+      </div>
+      <nav class="nav">
+        <a href="#menu" class="nav-link">Menú</a>
+        <a href="#eventos" class="nav-link">Eventos</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+    </div>
   </header>
 
-  <!-- Menú -->
-  <section class="menu">
-    <h2>🍽️ Platos de la Casa</h2>
-    <ul>
-      <li><span>Conejo a la parrilla o al ajillo</span><span>$35.000</span></li>
-      <li><span>Cazuela de mariscos</span><span>$40.000</span></li>
-      <li><span>Ajiaco grande (domingos)</span><span>$22.000</span></li>
-      <li><span>Ajiaco pequeño (domingos)</span><span>$18.000</span></li>
-    </ul>
-
-    <h2>🥩 Cortes Especiales de Res</h2>
-    <ul>
-      <li><span>Churrasco a la plancha (400 gr)</span><span>$35.000</span></li>
-      <li><span>Churrasco gratinado (400 gr)</span><span>$40.000</span></li>
-      <li><span>Punta de anca (380 gr)</span><span>$42.000</span></li>
-      <li><span>New York (380 gr)</span><span>$42.000</span></li>
-      <li><span>Tomahawk (380 gr)</span><span>$45.000</span></li>
-      <li><span>Ribeye (380 gr)</span><span>$40.000</span></li>
-    </ul>
-
-    <h2>🐟 Pescado</h2>
-    <ul>
-      <li><span>Trucha a la plancha o al ajillo</span><span>$35.000</span></li>
-      <li><span>Trucha gratinada o en champiñones</span><span>$40.000</span></li>
-      <li><span>Trucha en camarones</span><span>$45.000</span></li>
-      <li><span>Robalo (filete)</span><span>$35.000</span></li>
-      <li><span>Salmón a la plancha</span><span>$45.000</span></li>
-      <li><span>Mojarra frita</span><span>$35.000</span></li>
-    </ul>
-
-    <h2>🍗 Pollo</h2>
-    <ul>
-      <li><span>Pechuga a la plancha</span><span>$30.000</span></li>
-      <li><span>Pechuga gratinada</span><span>$35.000</span></li>
-      <li><span>Pechuga en champiñones</span><span>$38.000</span></li>
-      <li><span>Pechuga en camarones</span><span>$40.000</span></li>
-    </ul>
-
-    <h2>🐖 Cerdo</h2>
-    <ul>
-      <li><span>Lomo de cerdo</span><span>$35.000</span></li>
-      <li><span>Chuleta en salsa de mora</span><span>$35.000</span></li>
-    </ul>
-
-    <h2>🧆 Entradas</h2>
-    <ul>
-      <li><span>Patacón en champiñón</span><span>$20.000</span></li>
-      <li><span>Patacón con hogao</span><span>$18.000</span></li>
-    </ul>
-
-    <h2>🥤 Bebidas</h2>
-    <ul>
-      <li><span>Jugo natural (agua)</span><span>$3.000</span></li>
-      <li><span>Jugo natural (leche)</span><span>$5.000</span></li>
-      <li><span>Gaseosa</span><span>$3.000</span></li>
-      <li><span>Cerveza</span><span>$5.000</span></li>
-      <li><span>Limonada</span><span>$4.000</span></li>
-    </ul>
+  <section class="hero">
+    <div class="container hero-inner">
+      <h1>Bienvenido a SelvaMaría</h1>
+      <p>Comida típica y sabores de la selva, en un ambiente natural y acogedor.</p>
+      <div class="cta">
+        <a href="#menu" class="btn btn-primary">Ver Menú</a>
+        <a href="#contacto" class="btn btn-outline">Reservas y Contacto</a>
+        <a href="#eventos" class="btn btn-outline">Eventos</a>
+      </div>
+    </div>
   </section>
 
-  <!-- Footer -->
+  <main>
+    <section id="menu" class="section container">
+      <h2>Menú</h2>
+
+      <div class="menu-group">
+        <h3>🍽️ Platos de la Casa</h3>
+        <ul class="menu-list">
+          <li><span>Conejo a la parrilla o al ajillo</span><span class="price">$35.000</span></li>
+          <li><span>Cazuela de mariscos</span><span class="price">$40.000</span></li>
+          <li><span>Ajiaco grande (solo domingos)</span><span class="price">$22.000</span></li>
+          <li><span>Ajiaco pequeño (solo domingos)</span><span class="price">$18.000</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-group">
+        <h3>🥩 Cortes Especiales de Res</h3>
+        <ul class="menu-list">
+          <li><span>Churrasco a la plancha (400 gr)</span><span class="price">$35.000</span></li>
+          <li><span>Churrasco gratinado (400 gr)</span><span class="price">$40.000</span></li>
+          <li><span>Punta de anca (380 gr)</span><span class="price">$42.000</span></li>
+          <li><span>New York (380 gr)</span><span class="price">$42.000</span></li>
+          <li><span>Tomahawk (380 gr)</span><span class="price">$45.000</span></li>
+          <li><span>Ribeye (380 gr)</span><span class="price">$40.000</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-group">
+        <h3>🐟 Pescado</h3>
+        <ul class="menu-list">
+          <li><span>Trucha a la plancha o al ajillo</span><span class="price">$35.000</span></li>
+          <li><span>Trucha gratinada o en champiñones</span><span class="price">$40.000</span></li>
+          <li><span>Trucha en camarones</span><span class="price">$45.000</span></li>
+          <li><span>Robalo (filete)</span><span class="price">$35.000</span></li>
+          <li><span>Salmón a la plancha</span><span class="price">$45.000</span></li>
+          <li><span>Mojarra frita</span><span class="price">$35.000</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-group">
+        <h3>🍗 Pollo</h3>
+        <ul class="menu-list">
+          <li><span>Pechuga a la plancha</span><span class="price">$30.000</span></li>
+          <li><span>Pechuga gratinada</span><span class="price">$35.000</span></li>
+          <li><span>Pechuga en champiñones</span><span class="price">$38.000</span></li>
+          <li><span>Pechuga en camarones</span><span class="price">$40.000</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-group">
+        <h3>🐖 Cerdo</h3>
+        <ul class="menu-list">
+          <li><span>Lomo de cerdo</span><span class="price">$35.000</span></li>
+          <li><span>Chuleta en salsa de mora</span><span class="price">$35.000</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-group">
+        <h3>🧆 Entradas</h3>
+        <ul class="menu-list">
+          <li><span>Patacón en champiñón</span><span class="price">$20.000</span></li>
+          <li><span>Patacón con hogao</span><span class="price">$18.000</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-group">
+        <h3>🥤 Bebidas</h3>
+        <ul class="menu-list">
+          <li><span>Jugo natural (agua)</span><span class="price">$3.000</span></li>
+          <li><span>Jugo natural (leche)</span><span class="price">$5.000</span></li>
+          <li><span>Gaseosa</span><span class="price">$3.000</span></li>
+          <li><span>Cerveza</span><span class="price">$5.000</span></li>
+          <li><span>Limonada</span><span class="price">$4.000</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="eventos" class="section container">
+      <h2>Eventos</h2>
+      <p>Algunos momentos en SelvaMaría. Puedes reemplazar estas imágenes por tus fotos en <code>images/eventos/</code>.</p>
+      <div class="gallery">
+        <img src="images/eventos/evento_1.jpg" alt="Evento 1">
+        <img src="images/eventos/evento_2.jpg" alt="Evento 2">
+        <img src="images/eventos/evento_3.jpg" alt="Evento 3">
+        <img src="images/eventos/evento_4.jpg" alt="Evento 4">
+        <img src="images/eventos/evento_5.jpg" alt="Evento 5">
+        <img src="images/eventos/evento_6.jpg" alt="Evento 6">
+      </div>
+    </section>
+
+    <section id="contacto" class="section container">
+      <h2>Contacto e Información</h2>
+      <div class="contact-card">
+        <p><strong>Reservas:</strong> María Gonzalez – 314 327 66 31</p>
+        <p><strong>Reservas:</strong> Orlando Pedraza – 314 444 76 98</p>
+        <p><a class="btn btn-primary" target="_blank" href="https://wa.me/573143276631">WhatsApp</a>
+           <a class="btn btn-outline" target="_blank" href="https://www.instagram.com/selvamaria_restaurantee">Instagram</a></p>
+        <small>Calle 3 # 4-40
+          Guasca, Cundinamarca · Restaurante SelvaMaría</small>
+      </div>
+    </section>
+  </main>
+
+  <a href="https://wa.me/573143276631" class="whatsapp-fab" aria-label="WhatsApp">WhatsApp</a>
+
   <footer class="footer">
-    <h2>Contactos para reservas</h2>
-    <p><strong>María:</strong> 314 327 6631</p>
-    <p><strong>Orlando:</strong> 314 447 698</p>
-    <div class="buttons">
-      <a href="https://wa.me/573143276631" class="btn whatsapp" target="_blank">📲 WhatsApp</a>
-      <a href="https://www.instagram.com/selvamaria_restaurantee" class="btn instagram" target="_blank">📸 Instagram</a>
+    <div class="container">
+      <p>© 2025 Restaurante SelvaMaría · Sitio estático</p>
     </div>
-    <p class="copy">&copy; 2025 Restaurante Selva María</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>

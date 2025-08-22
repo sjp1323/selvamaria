@@ -1,0 +1,9 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='600' viewBox='0 0 1200 600'>
+<defs>
+  <linearGradient id='g' x1='0' x2='0' y1='0' y2='1'>
+    <stop stop-color='#2e7d56' stop-opacity='.18'/>
+    <stop stop-color='#2e7d56' stop-opacity='0'/>
+  </linearGradient>
+</defs>
+<g transform='translate(200,50)' fill='url(#g)'><path d='M0,400 C80,260 180,240 260,120 C360,-20 520,-20 620,120 C700,230 820,260 900,380 C760,360 640,400 520,450 C360,520 200,520 0,400 Z'/></g>
+</svg>
